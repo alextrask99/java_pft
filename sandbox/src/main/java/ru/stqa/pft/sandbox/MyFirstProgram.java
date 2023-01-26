@@ -1,9 +1,12 @@
 package ru.stqa.pft.sandbox;
 
 public class MyFirstProgram {
+    public static void main(String[] args) {
 
-  public static void main(String[] args) {
-    System.out.println("Hello, world");
-  }
-
+        int value = 0;
+        while (value < 5) {
+            System.out.println("Hello " + value);
+            value = value + 1;
+        }
+    }
 }
